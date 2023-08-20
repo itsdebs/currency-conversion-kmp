@@ -1,0 +1,18 @@
+CREATE TABLE Exchange (
+    currency TEXT NOT NULL,
+    rate REAL NOT NULL
+);
+
+insertExchannge:
+INSERT INTO Exchange (currency, rate) VALUES (?, ?);
+
+removeAllExchangeRates:
+DELETE FROM Exchange;
+
+selectAllExchangeRatesInfo:
+SELECT Exchange.*
+FROM Exchange;
+
+selectAllExchangeCurrencyNames:
+SELECT Exchange.currency
+FROM Exchange;
