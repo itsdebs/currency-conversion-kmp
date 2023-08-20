@@ -10,3 +10,7 @@ Hi, to use the app, please go to [Open Exchange Rates](https://openexchangerates
 ## Todo
 Add navigation to different screen
 
+
+
+https://github.com/itsdebs/currency-conversion-kmp/assets/11850293/d8ab88e0-8137-4293-9049-01b9d519ddac
+
