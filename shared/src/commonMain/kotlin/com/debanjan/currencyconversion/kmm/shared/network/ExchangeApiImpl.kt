@@ -10,7 +10,8 @@ import kotlinx.serialization.json.Json
 
 class ExchangeApiImpl : ExchangeApi {
     companion object{
-        const val EXCHANGE_URL = "https://openexchangerates.org/api/latest.json?app_id=5ceda06c56c84a0a80b062b287777692"
+        const val OPEN_EXCHANGE_API_KEY = "YOUR_API_KEY"
+        const val EXCHANGE_URL = "https://openexchangerates.org/api/latest.json?app_id=$OPEN_EXCHANGE_API_KEY"
     }
     override val httpClient = HttpClient {
         install(ContentNegotiation) {
